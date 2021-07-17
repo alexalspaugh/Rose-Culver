@@ -25,6 +25,10 @@ h2 {
     margin: 0;
 }
 
+section a {
+    color: #000;
+}
+
 .circle {
     width: 20px;
     height: 20px;

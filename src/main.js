@@ -58,4 +58,12 @@ randomTag.addEventListener('click', function () {
     random()
 })
 
-
+document.addEventListener('keyup', function (event) {
+    if (event.key == "ArrowRight") {
+        next()
+    } 
+    
+    if (event.key == "ArrowLeft") {
+        prev()
+    }
+})
